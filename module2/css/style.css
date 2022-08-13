@@ -16,7 +16,7 @@ h1 {
 section {
 	background-color: deeppink;
 	width: 90%;
-	height: fit-content;
+	height: 150px;
 	border: 1px solid black;
 	margin: auto;
 	position: relative;
@@ -60,6 +60,7 @@ p {
 		
 		padding-top: 15px;
 		padding-bottom: 15px;
+		overflow: hidden;
 
 	}
 	.col-lg-1 {
