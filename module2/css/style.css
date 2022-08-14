@@ -21,6 +21,8 @@ section {
 	border: 1px solid black;
 	margin: auto;
 	position: relative;
+	overflow: hidden;
+
 
 
 }
