@@ -1,0 +1,19 @@
+body {
+	background-color: hsl(0, 0%, 90%);
+	font-size: 16px;
+	font-family: font-family: 'Roboto', sans-serif;
+	color: brown;
+}
+
+#navbar-head {
+background-color: rgba(255, 255, 128, .5);
+border-radius: 0;
+border: 2px solid hsla(50, 33%, 25%, .75); 
+}
+
+.navbar-header.navbar-brand {
+	
+}
+.navbar-brand h1 {
+	margin: 0px;
+ }
