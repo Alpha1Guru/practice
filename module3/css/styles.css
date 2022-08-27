@@ -8,11 +8,12 @@ body {
 #navbar-head {
 background-color: rgba(255, 255, 128, .5);
 border-radius: 0;
-border: 2px solid hsla(50, 33%, 25%, .75); 
+border: 2px solid hsla(50, 33%, 25%, .75);
+height: 62px; 
 }
 
-.navbar-header.navbar-brand {
-	
+.navbar-brand {
+	padding-bottom: 15px;
 }
 .navbar-brand h1 {
 	margin: 0px;
