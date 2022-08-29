@@ -1,20 +1,131 @@
+* {
+	box-sizing: border-box;
+}
 body {
-	background-color: hsl(0, 0%, 90%);
+	background-color: hsl(0, 2%, 22%);
 	font-size: 16px;
-	font-family: font-family: 'Roboto', sans-serif;
-	color: brown;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(224, 48, 4);
 }
 
+/* Header */
 #navbar-head {
-background-color: rgba(255, 255, 128, .5);
+background-color: rgba(119, 247, 0, 0.5);
 border-radius: 0;
-border: 2px solid hsla(50, 33%, 25%, .75);
-height: 62px; 
+border: 2px solid hsla(50, 33%, 25%, .75); 
 }
 
 .navbar-brand {
 	padding-bottom: 15px;
 }
+
 .navbar-brand h1 {
 	margin: 0px;
+	font-weight: bold;
+	font-size: 1.9em;
+	color: darkgoldenrod;
  }
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+	margin-bottom: 4.1px;
+}
+
+#button, .navbar-header button>span.icon-bar {
+	border: 1px solid #ff4b2b;
+  	background-color: #f7ab54;
+}
+
+#button:hover, #button:focus {
+	background-color: #ffe880;
+	border: 1px solid #fc5a3e;
+}
+
+hr.visible-xs {
+	width: 80%;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1.5px solid #5a4e4e;
+}
+
+#collapse-menu {
+    margin-left: -17px;
+    margin-right: -17px;
+    clear: both;
+    border: 1px solid darkgoldenrod;
+	background-color: #ffe56f;
+}
+
+#menu-list {
+    margin: 0px -17px;
+}
+
+#menu-list li {
+	text-transform: capitalize;
+	font-size: 1.3em;
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+#menu-list li:hover{
+	font-size: 1.2em;
+	background-color: aliceblue;
+	box-shadow: 1px rgb(122, 119, 110) ;
+}
+
+/* End Of Header */
+
+/* Main Content */
+h2.text-center {
+	text-transform: capitalize;
+	font-size: 1.9em;
+	font-weight: 300;
+	margin-bottom: 28px;
+}
+
+h3.text-center {
+	text-transform: capitalize;
+	font-size: 1.5em;
+	font-weight: i00;
+	margin-bottom: 28px;
+}
+#content {
+	background-color: rgb(248, 153, 124);
+	font-weight: 100;
+}
+
+div.col-xs-12 {
+	padding: 15px;
+}
+
+div>a:link, div>a:visited{ /***** links *****/
+	font-size: 1.2em;
+	font-weight: 100;
+	color: rgb(2, 70, 8);
+	text-decoration: none;
+	text-transform: capitalize;
+}
+div>a:hover { /***** links *****/
+	text-shadow: 1px floralwhite;
+	font-size: 1.1em;
+}
+div>a:active, div>a :focus { /***** links *****/
+	color: rgb(253, 11, 144);
+}
+.col-xs-12.col-sm-6.col-md-4>article.background, .col-xs-12.col-sm-12.col-md-4>article.background{ /* article */
+	height:fit-content;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(248, 153, 124);
+    font-weight: 100;
+    margin: 0px;
+    padding: 15px;
+
+}
