@@ -127,5 +127,10 @@ div>a:active, div>a :focus { /***** links *****/
     font-weight: 100;
     margin: 0px;
     padding: 15px;
+}
 
+@media (min-width: 768px) {
+	#collapse-menu {
+		display: none;
+	}
 }
