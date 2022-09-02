@@ -20,10 +20,10 @@ border: 2px solid hsla(50, 33%, 25%, .75);
 }
 
 .navbar-brand h1 {
-	margin: 0px;
-	font-weight: bold;
-	font-size: 1.9em;
-	color: darkgoldenrod;
+	margin: -9px 0px 0px 0px;
+    font-weight: bold;
+    
+    color: darkgoldenrod;
  }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
@@ -106,7 +106,7 @@ div.col-xs-12 {
 }
 
 div>a:link, div>a:visited{ /***** links *****/
-	font-size: 1.2em;
+	font-size: 1.15em;
 	font-weight: 100;
 	color: rgb(2, 70, 8);
 	text-decoration: none;
@@ -114,7 +114,7 @@ div>a:link, div>a:visited{ /***** links *****/
 }
 div>a:hover { /***** links *****/
 	text-shadow: 1px floralwhite;
-	font-size: 1.1em;
+	color: aliceblue;
 }
 div>a:active, div>a :focus { /***** links *****/
 	color: rgb(253, 11, 144);
