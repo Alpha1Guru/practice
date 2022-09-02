@@ -59,11 +59,11 @@ hr.visible-xs {
 }
 
 #collapse-menu {
-    margin-left: -17px;
-    margin-right: -17px;
+    margin-left: -32px;
+    margin-right: -32px;
     clear: both;
     border: 1px solid darkgoldenrod;
-	background-color: #ffe56f;
+    background-color: #ffe56f;
 }
 
 #menu-list {
