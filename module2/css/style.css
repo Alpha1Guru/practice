@@ -16,7 +16,9 @@ h1 {
 section {
 	background-color: deeppink;
 	width: 90%;
-	height: fit-content;
+	height: 150px;
+	padding: 8px;
+	overflow: hidden;
 	border: 1px solid black;
 	margin: auto;
 	position: relative;
@@ -25,34 +27,38 @@ section {
 }
 
 h3 {
-	width: fit-content;
+	width: 110px;
 	margin: 0px;
-	background-color: orange;
 	position: absolute;
 	top: 0px;
 	right: 0px;
 	border: 1px solid black;
 	text-align: center;
-	padding-left: 5px;
-	padding-right: 5px;
-
 }
+
 h3.blue {
 	background-color: dodgerblue;
 }
+
 h3.maroon {
 	background-color: gold;
 }
+
 h3.green {
 	background-color: lime;
 }
-.row {
-	width: 100%;
-}
+
 p {
 	clear: both;
 	padding: 10px;
 }
+
+.row {
+	width: 100%;
+}
+
+
+
 /*********** For Desktop Devices ***********/ 
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -104,9 +110,12 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 		.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
 		float: left;
-		
-		padding-top: 15px;
+		padding-right: 15px;		
 		padding-bottom: 15px;
+	}
+	section {
+		margin: 0px 0px 0px;
+		width: 100%;
 	}
 	.col-md-1 {
 			width: 8.33%;
